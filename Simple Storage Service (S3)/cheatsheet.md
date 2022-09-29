@@ -1,0 +1,17 @@
+- S3 is **Object based storage**. Store unlimited amount of data.
+- **Replicates** data across at least 3 AZs to ensure 99.99% Availability and 11' 9s of durability
+- Objects contains data (files)
+- Object size can be **0 Bytes to 5 TB**
+- Buckets contains objects or folder containing objects.
+- Bucket names are uniques like a domain name
+- When file uploaded to S3, receive **HTTP 200 Code (if successful)**
+- **Lifecycle Management** Objects can be moved between storage classes or/deleted automatically
+- **Versioning** allows keeping old versions of an object which can still be accessed.
+- Once versioning turned on, cannot be removed but only suspended
+- When deleted, old version of object still accessible.
+- MFA delete enforce DELETE operation to require MFA token
+- New buckets are **private** by default
+- **Logging** can be turned on to track operations performed on objects
+- Access Control configured using **Bucket Policies** and **ACL**
+- **Bucket Policies** allow complex control access definitions
+- **ACLs** are legacy method where access granted with simple actions

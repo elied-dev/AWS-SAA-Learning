@@ -1,11 +1,13 @@
 ![S3-logo](https://fathomtech.io/blog/using-aws-s3-and-cloudfront-for-fast-static-web-sites/amazon-s3.png)
 # Simple Storage Service (S3)
 
-This is an **object based service**. 
-
-Serverless storage in the cloud.
+See [CheatSheet](cheatsheet)
 
 ## Concepts
+
+Simple Storage Service is an **object based service**. 
+
+Serverless storage in the cloud.
 
 ### Object-based storage
 OBS is a data storage architecture that manages data as objects as opposed to other storage architectures such as **file systems** (manages data as a files and fire hierarchy) or **block storage** (manages data as blocks within sectors and tracks).
@@ -184,6 +186,7 @@ Can anable MFA delete to ensure users cannot delete objects from a bucket unless
 Conditions:
 - Must use AWS CLI
 - Versioning turned on
+- Done by ROOT account only
 
 ```shell
 $ aws s3api put-bucket-versioning \
