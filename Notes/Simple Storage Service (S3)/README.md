@@ -138,7 +138,7 @@ Can be used with **versioning**.
 Can be applied to both **current and previoous** versions.
 
 *Example:*
-![[s3_lifecycle-management_example-1.png]]
+![s3_lifecycle-management_example-1.png](assets/s3_lifecycle-management_example-1.png)
 
 ## Transfer Acceleration
 
@@ -148,7 +148,7 @@ Instead of uploading to your bucket, users use a **distinct URL** for an Edge Lo
 
 As Data arrives at the EL it's automatically routed to S3 over a specially optimized network path (Amazon's backbone network).
 
-![[s3_transfer-acceleration_diagram-1.png]]
+![s3_transfer-acceleration_diagram-1.png](assets/s3_transfer-acceleration_diagram-1.png)
 
 ## Presigned URLs
 
