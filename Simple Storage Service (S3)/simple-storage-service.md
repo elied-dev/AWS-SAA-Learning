@@ -1,7 +1,7 @@
 ![S3-logo](https://fathomtech.io/blog/using-aws-s3-and-cloudfront-for-fast-static-web-sites/amazon-s3.png)
 # Simple Storage Service (S3)
 
-See [CheatSheet](cheatsheet)
+See [CheatSheet](cheatsheet.md)
 
 ## Concepts
 
