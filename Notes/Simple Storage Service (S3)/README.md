@@ -2,6 +2,7 @@
 # Simple Storage Service (S3)
 
 This is an **object based service**. 
+
 Serverless storage in the cloud.
 
 ## Concepts
@@ -10,7 +11,9 @@ Serverless storage in the cloud.
 OBS is a data storage architecture that manages data as objects as opposed to other storage architectures such as **file systems** (manages data as a files and fire hierarchy) or **block storage** (manages data as blocks within sectors and tracks).
 
 S3 provides **UNLIMITED STORAGE**.
+
 We don't need to think about the underlying architecture => *serverless*
+
 S3 console provides an interface to upload, access and manage the data.
 
 ### Objects
@@ -25,6 +28,7 @@ We can store up to **5TB** of data per object.
 
 ### Buckets
 Buckets hold objects and folders which hold objects.
+
 S3 is a universal namespace so bucket names must be **UNIQUE**
 
 ## Storage Classes
@@ -44,13 +48,16 @@ S3 guarantees:
 All new buckets are **private** by default.
 
 Logging per request can be turned on a bucket.
+
 Log files are generated and saved in a different bucket (even on a different AWS account if desired).
+
 Access control is configured using **Bucket Policies** and **Access Control Lists (ACL)**.
 
 ### Bucket Policies
 Use a policy to define complex rule access.
 
-*For example:
+*For example:*
+
 ```json
 {
 	"Version": "2020-08-09",
@@ -70,6 +77,7 @@ Use a policy to define complex rule access.
 More info [here](https://docs.aws.amazon.com/AmazonS3/latest/userguide/acl-overview.html)
 
 Legacy feature (not deprecated) of controlling access to buckets and objects.
+
 Simple way of granting access.
 
 *Sample bucket ACL*
@@ -106,9 +114,9 @@ Simple way of granting access.
 Traffic between local host and S3 is achieved via SSL/TLS
 
 ### Server Side Encryption - At Rest
-SSE-AES: S3 handles the key, uses AES-256 algorithm to encrypt
-SSE-KMS (Key Management Service) Envelope encryption
-SSE-C: Customer provided key
+- SSE-AES: S3 handles the key, uses AES-256 algorithm to encrypt
+- SSE-KMS (Key Management Service) Envelope encryption
+- SSE-C: Customer provided key (must use AWS CLI)
 
 ### Client Side
 Can encrypt data on local before uploading.
@@ -117,27 +125,35 @@ Can encrypt data on local before uploading.
 
 ### New Objects (PUTS)
 **READ AFTER WRITE** Consistency
+
 Able to **immediately read** data after writing
 
 ### Overwrite (PUTS) or Delete (DELETES) Objects
 **EVENTUAL** consistency
 When such an operation is made on an object it might take some time for S3 to replicate versions to AZs.
+
 Need to generally wait a few seconds before reading.
 
 ## Cross Region Replication (CRR)
 
 When enabled, any uploaded object will be **automatically replicated** to another(s) region(s).
+
 This provides **higher durability** and potential **disaster recovery** for objects.
+
 Must have **versioning** enabled on both source and destination buckets.
+
 Can have CRR to another AWS account.
 
 ## Lifecycle Management
 
 Allow to automate process of moving objects to different Storage classes or deleting all together.
+
 Can be used with **versioning**.
+
 Can be applied to both **current and previoous** versions.
 
 *Example:*
+
 ![s3_lifecycle-management_example-1.png](assets/s3_lifecycle-management_example-1.png)
 
 ## Transfer Acceleration
@@ -154,6 +170,7 @@ As Data arrives at the EL it's automatically routed to S3 over a specially optim
 
 Generate a URL which provides temporary access (either download or upload).
 Presigned URLs are commonly used **to provide access to private objects** without making them public.
+
 We can use AWS CLI or AWS SDK to generate those.
 
 ```shell
