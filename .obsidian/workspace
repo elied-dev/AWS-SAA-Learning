@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "Notes/Simple Storage Service (S3)/README.md.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Notes/Simple Storage Service (S3)/README.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Notes/Simple Storage Service (S3)/README.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Notes/Simple Storage Service (S3)/README.md.md"
               }
             }
           }
@@ -128,10 +128,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "234cf3699db87d3a",
+  "active": "b11ce09458757c29",
   "lastOpenFiles": [
-    "Notes/Simple Storage Service (S3).md",
+    "Notes/Simple Storage Service (S3)/assets/s3_transfer-acceleration_diagram-1.png",
+    "Notes/Simple Storage Service (S3)/README.md.md",
+    "Notes/Simple Storage Service (S3)/assets/s3_lifecycle-management_example-1.png",
     "Notes/Introduction.md",
+    "README.md",
     "AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf",
     "AWS-Certified-Solutions-Architect-Associate_Sample-Questions.pdf"
   ]
