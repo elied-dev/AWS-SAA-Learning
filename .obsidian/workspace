@@ -1,0 +1,138 @@
+{
+  "main": {
+    "id": "f2e290838f47c9b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "234cf3699db87d3a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Simple Storage Service (S3).md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4fdb59351546f212",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf440a279e6a9e00",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b11ce09458757c29",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "37582604fcaa3d9e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "eefbaa5826d52893",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 395.5
+  },
+  "right": {
+    "id": "e4af2d9c7e3b89ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ca2d4a463f41ae6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68dff90d3718a401",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes/Simple Storage Service (S3).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "43266af7ca4cd470",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Notes/Simple Storage Service (S3).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7a2caec0562e0f29",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "04b8c8d1e178e709",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notes/Simple Storage Service (S3).md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "234cf3699db87d3a",
+  "lastOpenFiles": [
+    "Notes/Introduction.md",
+    "Notes/Simple Storage Service (S3).md",
+    "AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf",
+    "AWS-Certified-Solutions-Architect-Associate_Sample-Questions.pdf"
+  ]
+}
