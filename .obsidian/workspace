@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "Simple Storage Service (S3)/simple-storage-service.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Simple Storage Service (S3)/simple-storage-service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Simple Storage Service (S3)/simple-storage-service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Simple Storage Service (S3)/simple-storage-service.md"
               }
             }
           }
@@ -130,9 +130,9 @@
   },
   "active": "234cf3699db87d3a",
   "lastOpenFiles": [
+    "README.md",
     "Simple Storage Service (S3)/simple-storage-service.md",
     "Official Docs/AWS-Certified-Solutions-Architect-Associate_Sample-Questions.pdf",
-    "README.md",
     "Simple Storage Service (S3)/cheatsheet.md",
     "Simple.md",
     "\"./S3.md",

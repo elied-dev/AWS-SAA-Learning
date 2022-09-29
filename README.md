@@ -18,6 +18,6 @@ _Might differ a bit from the current exam but refers [there](https://d1.awsstati
 [Official Exam Sample](<Official Docs/AWS-Certified-Solutions-Architect-Associate_Sample-Questions.pdf>)
 
 ## Index
-1. [Simple Storage Service](<Simple Storage Service (S3)/simple-storage-service>)
+1. [Simple Storage Service](<Simple Storage Service (S3)/simple-storage-service.md>)
 2. 
  
